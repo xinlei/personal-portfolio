@@ -32,13 +32,17 @@ img {margin: 0 auto;}
 
 .btn-default {position: relative; background: none; color: #E6E6E6; z-index: 999}
 
-.left-lines-container {position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; z-index: 1;}
+.left-lines-container {position: absolute; left: 0px; top: 0px; width: 100%; z-index: 1;}
 
 .left-line {stroke:rgb(255,216,22); stroke-width:1; stroke-opacity:.2;}
 
-.right-lines-container {position: absolute; right: 0px; top: 50%; height: 50%; width: 100%; z-index: 1;}
+.right-lines-container {position: absolute; right: 0px; top: 50%; width: 100%; z-index: 1;}
 
-.right-line {stroke:rgb(0,133,124); stroke-width:1; stroke-opacity:.2;}
+.right-top-lines-container {position: absolute; right: 0px; top: 0px; width: 100%; z-index: 1;}
+
+.right-line {stroke:rgb(255,243,200); stroke-width:1; stroke-opacity:.2;}
+
+.right-top-line {stroke:rgb(0,133,124); stroke-width:1; stroke-opacity:.2;}
 
 a {color: inherit; text-decoration: none;}
 
